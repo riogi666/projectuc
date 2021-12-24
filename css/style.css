@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: rgba(233, 229, 229, 0.904);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #202020;
+    font-style: 16px;
+}
+
+.contant-page {
+    width: 80%; /* Ширина слоя */
+    margin: 7px; /* Значение отступов */
+    padding: 10px; /* Поля вокруг текста */
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    right: 10%;
+}
+
+/* Стили шапки сайта */
+.header-container {
+    width: 100%;
+    text-align: center;
+}
+
+.site-header div{
+    display: inline-block; 
+}
+
+.site-header img {
+    width: 50px;
+}
+
+/* Стилизация меню сайта */
+
+.menu {
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.menu nav {
+    width: 100%;
+}
+
+.menu nav ul {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.menu nav li{
+    width: 19.5%;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.menu nav ul li a {
+    color: rgb(61, 58, 58); /* Цвет ссылок */
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    display: block; /* Блочная ссылка */
+    width: 100%;
+    height: 100%;
+    white-space: nowrap; /* Запрещаем перенос текста */
+   
+}
+
+.menu nav ul li a:hover {
+    background: #f1f1f1c0; /* Цвет фона при наведении */
+    border-radius: 15px;
+}
+
+/* Стили контента страницы */
+.content {
+    width: 100%;
+    margin: 5px;  
+}
+
+.rows {
+    width: 100%;
+    margin: 5px;
+}
+
+.row {
+    margin-top: 5px;
+    background: #f1f1f1c0;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.row img {
+    width: 100px;
+}
+
+.row div {
+    width: 100px;
+    display: inline-block;
+}
+
+.row article {
+    display: inline-block;
+    margin-left: 10px;
+    width: 85%;
+}
+
+/* Стили подвала страницы */
+footer {
+    margin: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer div {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+footer div:nth-child(1) {
+    width: 58%;
+}
+
+footer div:nth-child(2) {
+    width: 9%;
+}
+
+footer div:nth-child(3) {
+    width: 30%;
+}
